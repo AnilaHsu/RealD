@@ -1,10 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with React-TS-ESLint-Telempt
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is based on  [Create React App](https://github.com/facebook/create-react-app) , in addition, added [ESLint](https://github.com/eslint/eslint), [Prettier](https://github.com/prettier/prettier), and [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) settings.\
+In overrides, added `"no-undef": "off"` for **TypeScript** related files and `"react/react-in-jsx-scope": "off"` for **React v17**.
 
-## Available Scripts
-
-In the project directory, you can run:
+## Usage
 
 ### `npm start`
 
@@ -41,6 +40,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
