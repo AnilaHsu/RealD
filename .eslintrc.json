@@ -10,6 +10,14 @@
         "prettier"
     ],
     "overrides": [
+        {
+            "files": ["*.ts", "*.mts", "*.cts", "*.tsx"],
+            "rules": {
+              "no-undef": "off",
+              "react/react-in-jsx-scope": "off"
+
+            }
+        }
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
