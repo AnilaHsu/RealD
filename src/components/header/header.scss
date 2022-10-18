@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+.logo {
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    margin: 0 10px;
+}
+
+.logo-text {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-size: 36px;
+}
+
+.menu-item {
+    color: #59707e;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
