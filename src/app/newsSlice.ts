@@ -2,11 +2,20 @@ import { apiKey } from "./../data/api-key";
 import { newsArguments, newsState } from "./../type";
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { fetchNewsData } from "../data/news";
+import { countries } from "../data/country";
 
 const myApiKey = apiKey();
+const allCountry = countries()
+const userLang = navigator.language;
+const countryCode = userLang.split(/-|_/)[1].toLowerCase()
+const countryItem = allCountry.find((item) => item.code === countryCode)
+const countryName = countryItem ? countryItem.name : ""
+
 const initialState: newsState = {
   category: "",
-  country: "",
+  countryData: allCountry,
+  countryName: countryName,
+  countryCode: countryCode,
   newsData: [],
   loading: "idle",
   currentRequestId: undefined,
@@ -21,7 +30,9 @@ export const newsSlice = createSlice({
       state.category = action.payload;
     },
     selectCnt: (state, action: PayloadAction<string>) => {
-        state.country =action.payload
+        state.countryName = action.payload
+        const country = state.countryData.find((item) => item.name === action.payload)
+        state.countryCode = country ? country.code : ""
     }
   },
   extraReducers(builder) {
@@ -65,5 +76,5 @@ export const getNewsData = createAsyncThunk(
   }
 );
 
-export const { selectCat } = newsSlice.actions;
+export const { selectCat, selectCnt } = newsSlice.actions;
 export default newsSlice.reducer;
