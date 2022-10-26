@@ -1,5 +1,12 @@
+import LatestNews from "../../components/latestNews/LatestNews";
+import "./sports.scss"
+
 export function Sports() {
-  return <div>Sports</div>;
+  return (
+    <main className="main">
+      <LatestNews />
+    </main>
+  );;
 }
 
 export default Sports;

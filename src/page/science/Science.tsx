@@ -1,5 +1,12 @@
+import LatestNews from "../../components/latestNews/LatestNews";
+import "./science.scss"
+
 export function Science() {
-  return <div>Science</div>;
+  return (
+    <main className="main">
+      <LatestNews />
+    </main>
+  );;
 }
 
 export default Science;
