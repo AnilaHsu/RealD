@@ -1,5 +1,12 @@
+import LatestNews from "../../components/latestNews/LatestNews";
+import "./health.scss"
+
 export function Health() {
-  return <div>Health</div>;
+  return (
+    <main className="main">
+      <LatestNews />
+    </main>
+  );;
 }
 
 export default Health;
