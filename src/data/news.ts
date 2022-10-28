@@ -10,17 +10,22 @@ interface NewsType {
 export async function fetchNewsData(
   category: string,
   country: string,
-  apiKey: string
+  apiKey: string,
+  pageSize: number,
+  page: number
 ) {
-  const response = await axios.get<article[]>(
+  const response = await axios.get<NewsType>(
     "https://newsapi.org/v2/top-headlines",
     {
       params: {
         category,
         country,
         apiKey,
+        pageSize,
+        page
       },
     }
   );
+  
   return response.data;
 }
