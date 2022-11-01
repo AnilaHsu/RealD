@@ -3,12 +3,25 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { useAppDispatch, useAppSelector } from "../../app/hook";
 import { getNewsData, selectCat } from "../../app/newsSlice";
+import { useState } from "react";
 
 export function Header(): JSX.Element {
   const dispatch = useAppDispatch();
   const countryCode = useAppSelector((state) => state.news.countryCode);
-  console.log(countryCode)
-  
+  const category = useAppSelector((state) => state.news.category);
+
+  const menuList = [
+    { id: 0, name: "home" },
+    { id: 1, name: "technology" },
+    { id: 2, name: "business" },
+    { id: 3, name: "science" },
+    { id: 4, name: "sports" },
+    { id: 5, name: "health" },
+    { id: 6, name: "entertainment" },
+  ];
+  const menuItem = menuList.find((item) => item.name === category);
+  const menuId = menuItem ? menuItem.id : 0;
+  const [menuNum, setMenuNum] = useState<number>(menuId);
   return (
     <header className="header">
       <h1 className="logo">
@@ -17,111 +30,31 @@ export function Header(): JSX.Element {
       </h1>
       <div className="sub-header">
         <nav className="menu">
-          <Link
-            className="menu-item"
-            to="/"
-            onClick={() => {
-              dispatch(selectCat(""));
-              dispatch(
-                getNewsData({
-                  category: "",
-                  country: countryCode,
-                })
-              );
-            }}
-          >
-            home
-          </Link>
-          <Link
-            className="menu-item"
-            to="/technology"
-            onClick={() => {
-              dispatch(selectCat("technology"));
-              dispatch(
-                getNewsData({
-                  category: "technology",
-                  country: countryCode,
-                })
-              );
-            }}
-          >
-            technology
-          </Link>
-          <Link
-            className="menu-item"
-            to="/business"
-            onClick={() => {
-              dispatch(selectCat("business"));
-              dispatch(
-                getNewsData({
-                  category: "business",
-                  country: countryCode,
-                })
-              );
-            }}
-          >
-            business
-          </Link>
-          <Link
-            className="menu-item"
-            to="/science"
-            onClick={() => {
-              dispatch(selectCat("science"));
-              dispatch(
-                getNewsData({
-                  category: "science",
-                  country: countryCode,
-                })
-              );
-            }}
-          >
-            science
-          </Link>
-          <Link
-            className="menu-item"
-            to="/sports"
-            onClick={() => {
-              dispatch(selectCat("sports"));
-              dispatch(
-                getNewsData({
-                  category: "sports",
-                  country: countryCode,
-                })
-              );
-            }}
-          >
-            sports
-          </Link>
-          <Link
-            className="menu-item"
-            to="/health"
-            onClick={() => {
-              dispatch(selectCat("health"));
-              dispatch(
-                getNewsData({
-                  category: "health",
-                  country: countryCode,
-                })
-              );
-            }}
-          >
-            health
-          </Link>
-          <Link
-            className="menu-item"
-            to="/entertainment"
-            onClick={() => {
-              dispatch(selectCat("entertainment"));
-              dispatch(
-                getNewsData({
-                  category: "entertainment",
-                  country: countryCode,
-                })
-              );
-            }}
-          >
-            entertainment
-          </Link>
+          {menuList.map((item, index) => {
+            return (
+              <Link
+                key={index}
+                className={
+                  menuNum === item.id ? "active menu-item" : "menu-item"
+                }
+                to={item.name === "home" ? "/" : `/${item.name}`}
+                onClick={() => {
+                  setMenuNum(item.id);
+                  console.log(item.id, index);
+                  dispatch(selectCat(item.name === "home" ? "" : item.name));
+                  dispatch(
+                    getNewsData({
+                      category: item.name === "home" ? "" : item.name,
+                      country: countryCode,
+                      page: 1,
+                    })
+                  );
+                }}
+              >
+                {item.name}
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </header>
