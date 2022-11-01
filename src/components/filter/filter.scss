@@ -1,10 +1,11 @@
 
 .filter {
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 .country-filter {
-    width: 60%;
-    margin: 50px 70px;
+    width: 30%;
+    margin: 50px 0;
+    min-width: 200px;
 }
