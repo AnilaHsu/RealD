@@ -26,7 +26,7 @@ export function Filter(): JSX.Element {
             const countryCode = country? country.code : "" 
             dispatch(selectCnt(countryName))
             dispatch(getNewsData(
-              { category, country: countryCode }
+              { category, country: countryCode, page: 1}
             ))
           }}
 
