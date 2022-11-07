@@ -2,7 +2,7 @@
 .news-section {
     max-width: 1000px;
     width: 100%;
-    padding: 80px;
+    padding: 10px 80px;
 }
 
 .article-item {
@@ -67,6 +67,7 @@
 
 .section-title {
     color: #2d2d2d;
+    margin: 70px 0 0 0;
 }
 
 .finish-load {
@@ -89,12 +90,30 @@
 }
 
 @media screen and (max-width:850px) {
+    .news-section {
+        padding: 10px 30px;
+    }
+    .article-item {
+        padding: 10px 20px;
+    }
     .article-link {
         flex-direction: column;
     }
     .article-img {
-        aspect-ratio: 3/1;
+        aspect-ratio: 3/2;
         object-fit: cover;
         width: 100%;
+    }
+    .article-title {
+        font-size: 16px;
+    }
+    .article-description {
+        font-size: 12px;
+    }
+    .article-author, .article-source, .article-time {
+        font-size: 10px;
+    }
+    .news-top {
+        padding: 0 20px;
     }
 }

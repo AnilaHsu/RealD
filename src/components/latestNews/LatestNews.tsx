@@ -98,10 +98,12 @@ export function LatestNews(): JSX.Element {
   );
   return (
     <section className="news-section">
-      <Filter />
-      <h2 className="section-title">
-        Top News
-      </h2>
+      <div className="news-top">
+        <h2 className="section-title">
+          Latest News
+        </h2>
+        <Filter />
+      </div>
       <div>
         {loadState === "pending"
           ? loadingContent
