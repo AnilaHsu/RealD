@@ -15,7 +15,7 @@ export async function fetchNewsData(
   page: number
 ) {
   const response = await axios.get<NewsType>(
-    "https://newsapi.org/v2/top-headlines",
+    "https://us-central1-reald-732d7.cloudfunctions.net/topNews",
     {
       params: {
         category,
