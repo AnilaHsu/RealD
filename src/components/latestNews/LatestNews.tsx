@@ -86,7 +86,7 @@ export function LatestNews(): JSX.Element {
 
   const noNewsDataContent = (
     <div className="no-news-data">
-      It looks like we don&apos;t have any Top News
+      It looks like we don&apos;t have any top news
       {category ? ` about ${category}` : ""}
       {countryName ? ` from ${countryName}` : ""}.
     </div>
@@ -100,8 +100,9 @@ export function LatestNews(): JSX.Element {
     <section className="news-section">
       <div className="news-top">
         <h2 className="section-title">
-          Latest News
+          Top News <span className="sub-title">| {countryName} </span>
         </h2>
+        
         <Filter />
       </div>
       <div>
