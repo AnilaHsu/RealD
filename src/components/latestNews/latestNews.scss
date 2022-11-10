@@ -70,6 +70,10 @@
     margin: 70px 0 0 0;
 }
 
+.sub-title {
+    font-weight: 500;
+}
+
 .finish-load {
     color: #7c9aad;
     margin-top: 60px;
@@ -95,6 +99,7 @@
     }
     .article-item {
         padding: 10px 20px;
+        margin: 16px;
     }
     .article-link {
         flex-direction: column;
@@ -114,6 +119,6 @@
         font-size: 10px;
     }
     .news-top {
-        padding: 0 20px;
+        padding: 0 42px;
     }
 }
