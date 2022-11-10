@@ -27,13 +27,13 @@ const countryCode = useAppSelector((state) => state.news.countryCode)
         <Header />
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/technology" element={<Technology />} />
-          <Route path="/business" element={<Business />} />
-          <Route path="/science" element={<Science />} />
-          <Route path="/sports" element={<Sports />} />
-          <Route path="/health" element={<Health />} />
-          <Route path="/entertainment" element={<Entertainment />} />
+          <Route path="/RealDNews" element={<Home />} />
+          <Route path="/RealDNews/technology" element={<Technology />} />
+          <Route path="/RealDNews/business" element={<Business />} />
+          <Route path="/RealDNews/science" element={<Science />} />
+          <Route path="/RealDNews/sports" element={<Sports />} />
+          <Route path="/RealDNews/health" element={<Health />} />
+          <Route path="/RealDNews/entertainment" element={<Entertainment />} />
         </Routes>
 
         <Footer />
