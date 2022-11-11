@@ -7,9 +7,11 @@ A headline news site covering 50+ countries with six themes.
 
 
 ## Features
-- It considers mobile-first responsive design.
-- It provides a pagination feature that automatically loads new data when the page is swiped to the bottom.
-- It has a menu navigation bar with multiple themes and a country selector for news sources.
+- It has a menu navigation bar with multiple topics, users can choose the news of that topic to read according to their interest in reading.
+- It has a country selector for news sources, which by default selects a country based on the location of the user's browser, or users can select a news source country of interest to choose from.
+- It provides an auto-loading pagination feature that automatically loads new data when the page is swiped to the bottom.
+- It considers Mobile-First responsive design.
+
 
 
 
