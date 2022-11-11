@@ -1,5 +1,5 @@
 <h1 align="center"> RealDNews </h1>
-<p align="center">A headline news Website developed by React.js, Redux, and TypeScript.</p>
+<p align="center">A headline news Website developed by <code>React.js</code>, <code>Redux</code>, and <code>TypeScript</code>.</p>
 
 ## Introduce
 A headline news site covering 50+ countries with six themes.
