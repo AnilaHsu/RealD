@@ -35,6 +35,7 @@ npm start
 - [React](https://github.com/facebook/react)
     - [Create React App](https://github.com/facebook/create-react-app)
     - [React Router(@6)](https://github.com/remix-run/react-router)
+    - [react-infinite-scroll-component](https://github.com/ankeetmaini/react-infinite-scroll-component/tree/d5b4e5250669022db5217763afd22fb3995a505a#readme)
 - Lint & Formatter
   - [ESLint](https://github.com/eslint/eslint)
   - [Prettier](https://github.com/prettier/prettier)
@@ -44,7 +45,7 @@ npm start
     - [Redux-Toolkit](https://github.com/reduxjs/redux-toolkit)
     - [Redux-Thunk](https://github.com/reduxjs/redux-thunk)
     - [Redux-Persist](https://github.com/rt2zz/redux-persist)
-- [react-infinite-scroll-component](https://github.com/ankeetmaini/react-infinite-scroll-component/tree/d5b4e5250669022db5217763afd22fb3995a505a#readme)
-- [Scss](https://github.com/sass/sass) & [CSS](https://github.com/primer/css)
 - [axios](https://github.com/axios/axios)
 - [Material UI](https://github.com/mui/material-ui)
+- [Scss](https://github.com/sass/sass) & [CSS](https://github.com/primer/css)
+
