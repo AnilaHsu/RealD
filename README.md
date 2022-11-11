@@ -26,9 +26,9 @@ npm i
 npm start
 ```` 
 
-## API
+## APIs
 - News API
-- Firebase Cloud Functions
+- Firebase Cloud Functions as Proxy Server
 
 ## Tech Stacks
 - [TypeScript](https://github.com/microsoft/TypeScript)
@@ -45,7 +45,7 @@ npm start
     - [Redux-Toolkit](https://github.com/reduxjs/redux-toolkit)
     - [Redux-Thunk](https://github.com/reduxjs/redux-thunk)
     - [Redux-Persist](https://github.com/rt2zz/redux-persist)
-- [axios](https://github.com/axios/axios)
+- [Axios](https://github.com/axios/axios)
 - [Material UI](https://github.com/mui/material-ui)
 - [Scss](https://github.com/sass/sass) & [CSS](https://github.com/primer/css)
 
