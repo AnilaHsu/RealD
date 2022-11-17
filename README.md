@@ -2,7 +2,7 @@
 <p align="center">A headline news Website developed by <code>React.js</code>, <code>Redux</code>, and <code>TypeScript</code>.</p>
 
 ## Introduce
-A headline news site covering more than 50 countries and six themes.
+This is a headline news website covering more than 50 countries and six themes.
 
 
 
