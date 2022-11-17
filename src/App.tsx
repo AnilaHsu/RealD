@@ -13,13 +13,12 @@ import { getNewsData } from "./app/newsSlice";
 import { useAppDispatch, useAppSelector } from "./app/hook";
 
 function App(): JSX.Element {
-
-const dispatch = useAppDispatch()
-const category = useAppSelector((state) => state.news.category);
-const countryCode = useAppSelector((state) => state.news.countryCode)
+  const dispatch = useAppDispatch();
+  const category = useAppSelector((state) => state.news.category);
+  const countryCode = useAppSelector((state) => state.news.countryCode);
   useEffect(() => {
-    dispatch(getNewsData({category, country: countryCode, page: 1 }));
-  },[dispatch]);
+    dispatch(getNewsData({ category, country: countryCode, page: 1 }));
+  }, [dispatch]);
 
   return (
     <>

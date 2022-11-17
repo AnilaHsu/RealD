@@ -2,30 +2,29 @@ import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import newsReducer from "./newsSlice";
 import storage from "redux-persist/lib/storage";
 import {
-    persistReducer,
-    FLUSH,
-    REHYDRATE,
-    PAUSE,
-    PERSIST,
-    PURGE,
-    REGISTER
-  } from "redux-persist";
-  
+  persistReducer,
+  FLUSH,
+  REHYDRATE,
+  PAUSE,
+  PERSIST,
+  PURGE,
+  REGISTER,
+} from "redux-persist";
 
 const rootPersistConfig = {
   key: "root",
   version: 1,
   storage,
-  whitelist: ['newsSlice'],
+  whitelist: ["newsSlice"],
 };
 const newsPersistConfig = {
-  key: 'news',
+  key: "news",
   storage: storage,
-  whitelist: ['category', 'countryName', 'countryCode']
-}
+  whitelist: ["category", "countryName", "countryCode"],
+};
 
 const rootReducer = combineReducers({
-  news: persistReducer(newsPersistConfig, newsReducer)
+  news: persistReducer(newsPersistConfig, newsReducer),
 });
 
 const persistedReducer = persistReducer(rootPersistConfig, rootReducer);

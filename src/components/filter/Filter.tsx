@@ -5,12 +5,12 @@ import { useAppDispatch, useAppSelector } from "../../app/hook";
 import { getNewsData, selectCnt } from "../../app/newsSlice";
 
 export function Filter(): JSX.Element {
-  const dispatch = useAppDispatch()
-  const allCountry = useAppSelector((state) => (state.news.countryData))
-  const countryOption = allCountry.map(item => item.name)
+  const dispatch = useAppDispatch();
+  const allCountry = useAppSelector((state) => state.news.countryData);
+  const countryOption = allCountry.map((item) => item.name);
 
-  const countryName = useAppSelector((state) => (state.news.countryName))
-  const category = useAppSelector((state) => (state.news.category))
+  const countryName = useAppSelector((state) => state.news.countryName);
+  const category = useAppSelector((state) => state.news.category);
 
   return (
     <div className="filter">
@@ -21,15 +21,14 @@ export function Filter(): JSX.Element {
           options={countryOption}
           value={countryName}
           onChange={(event, value): void => {
-            const countryName = value ? value : ""
-            const country = allCountry.find((item) => item.name === countryName)
-            const countryCode = country? country.code : "" 
-            dispatch(selectCnt(countryName))
-            dispatch(getNewsData(
-              { category, country: countryCode, page: 1}
-            ))
+            const countryName = value ? value : "";
+            const country = allCountry.find(
+              (item) => item.name === countryName
+            );
+            const countryCode = country ? country.code : "";
+            dispatch(selectCnt(countryName));
+            dispatch(getNewsData({ category, country: countryCode, page: 1 }));
           }}
-
           renderInput={(params) => (
             <TextField
               {...params}

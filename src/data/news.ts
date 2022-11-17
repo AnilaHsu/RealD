@@ -22,10 +22,10 @@ export async function fetchNewsData(
         country,
         apiKey,
         pageSize,
-        page
+        page,
       },
     }
   );
-  
+
   return response.data;
 }

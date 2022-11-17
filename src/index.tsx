@@ -28,7 +28,6 @@ const theme = createTheme({
   },
 });
 
-
 const persistor = persistStore(store);
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
