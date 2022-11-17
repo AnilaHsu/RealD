@@ -66,7 +66,7 @@ export const newsSlice = createSlice({
         ) {
           state.loading = "idle";
           state.newsData.push(...action.payload.articles);
-          state.totalResults = action.payload.totalResults
+          state.totalResults = action.payload.totalResults;
           state.currentRequestId = undefined;
         }
       })

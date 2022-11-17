@@ -4,7 +4,7 @@ import { article } from "../../type";
 import "./latestNews.scss";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { getNewsData, IncreasePage, setLoadMore } from "../../app/newsSlice";
-import loadingAnimation from "../../assets/loading.gif"
+import loadingAnimation from "../../assets/loading.gif";
 
 export function LatestNews(): JSX.Element {
   const dispatch = useAppDispatch();
@@ -22,7 +22,7 @@ export function LatestNews(): JSX.Element {
       dispatch(IncreasePage());
       let currentPage = page;
       currentPage += 1;
-      
+
       dispatch(
         getNewsData({ category, country: countryCode, page: currentPage })
       );
@@ -102,7 +102,7 @@ export function LatestNews(): JSX.Element {
         <h2 className="section-title">
           Top News <span className="sub-title">| {countryName} </span>
         </h2>
-        
+
         <Filter />
       </div>
       <div>

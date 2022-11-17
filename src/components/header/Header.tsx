@@ -45,7 +45,11 @@ export function Header(): JSX.Element {
                 className={
                   menuNum === item.id ? "active menu-item" : "menu-item"
                 }
-                to={item.name === "home" ? "/RealDNews" : `/RealDNews/${item.name}`}
+                to={
+                  item.name === "home"
+                    ? "/RealDNews"
+                    : `/RealDNews/${item.name}`
+                }
                 onClick={() => {
                   setMenuNum(item.id);
                   console.log(item.id, index);
