@@ -106,7 +106,7 @@ export function LatestNews(): JSX.Element {
         <Filter />
       </div>
       <div>
-        {loadState === "pending"
+        {loadState === "pending" && data.length === 0
           ? loadingContent
           : data.length === 0
           ? noNewsDataContent
