@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/RealDNews/static/css/main.2a4d01f1.css",
-    "main.js": "/RealDNews/static/js/main.50c173ad.js",
+    "main.js": "/RealDNews/static/js/main.86adaffc.js",
     "static/js/787.d9b60154.chunk.js": "/RealDNews/static/js/787.d9b60154.chunk.js",
     "static/media/loading.gif": "/RealDNews/static/media/loading.0a6535215d969fd29b57.gif",
     "static/media/logo.png": "/RealDNews/static/media/logo.65865dd059762f882ce6.png",
     "index.html": "/RealDNews/index.html",
     "static/media/menu.svg": "/RealDNews/static/media/menu.ed9a69493f1a53f495cb321abb454cd4.svg",
     "main.2a4d01f1.css.map": "/RealDNews/static/css/main.2a4d01f1.css.map",
-    "main.50c173ad.js.map": "/RealDNews/static/js/main.50c173ad.js.map",
+    "main.86adaffc.js.map": "/RealDNews/static/js/main.86adaffc.js.map",
     "787.d9b60154.chunk.js.map": "/RealDNews/static/js/787.d9b60154.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a4d01f1.css",
-    "static/js/main.50c173ad.js"
+    "static/js/main.86adaffc.js"
   ]
 }
