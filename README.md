@@ -26,8 +26,8 @@ This is a headline news website covering more than 50 countries and six themes.
 <h4 align="center">Mobile</h4>
 <p align="center" width="100%">
   <kbd>
-    <img align="center" width="360" alt="reaD-mobile" src="https://user-images.githubusercontent.com/50144690/212466769-008d7793-eb92-4172-a3ba-0d42ab546460.png">
-    <img align="center" width="368" alt="reaD-mobile-menu" src="https://user-images.githubusercontent.com/50144690/212466916-8404d5d6-edf1-4bac-96d5-79a83cab2e7d.png">
+    <img align="center" width="300" alt="reaD-mobile" src="https://user-images.githubusercontent.com/50144690/212466769-008d7793-eb92-4172-a3ba-0d42ab546460.png">
+    <img align="center" width="306" alt="reaD-mobile-menu" src="https://user-images.githubusercontent.com/50144690/212466916-8404d5d6-edf1-4bac-96d5-79a83cab2e7d.png">
   <kbd>
 </p>
        
