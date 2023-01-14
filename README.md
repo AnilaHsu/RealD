@@ -19,16 +19,19 @@ This is a headline news website covering more than 50 countries and six themes.
 <h4 align="center">Desktop</h4>
 <p align="center" width="100%">
    <kbd>
-      <img align="center" src="https://user-images.githubusercontent.com/50144690/212461825-201f0f7e-4aab-421b-80f1-6fc79c736b42.png" alt="mobile" style="width:800px;" />
+       <img width="800" alt="realD-deskrop" src="https://user-images.githubusercontent.com/50144690/212466662-a113adc5-ac1c-4591-9e24-668bcbbc20f7.png">
    <kbd>
 </p>
+
 <h4 align="center">Mobile</h4>
 <p align="center" width="100%">
   <kbd>
-   <img width="325" alt="mobile" src="https://user-images.githubusercontent.com/50144690/212463033-88c99391-9437-439f-a400-27a1cba940a0.png">
-   <img width="324" alt="mobile-menu" src="https://user-images.githubusercontent.com/50144690/212463030-4a349974-203d-43e7-83ec-df645058fe72.png">
+    <img align="center" width="360" alt="reaD-mobile" src="https://user-images.githubusercontent.com/50144690/212466769-008d7793-eb92-4172-a3ba-0d42ab546460.png">
+    <img align="center" width="368" alt="reaD-mobile-menu" src="https://user-images.githubusercontent.com/50144690/212466916-8404d5d6-edf1-4bac-96d5-79a83cab2e7d.png">
+  <kbd>
 </p>
-        
+       
+
         
 
 ### App Link
