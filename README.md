@@ -6,14 +6,40 @@ This is a headline news website covering more than 50 countries and six themes.
 
 
 
-## Features
+## Overview
+
+### The Features, users are able to:
 - It has a menu navigation bar with multiple topics, users can choose the news of that topic to read according to their interest in reading.
 - It has a country selector for news sources, which by default selects a country based on the location of the user's browser, or users can select a news source country of interest to choose from.
 - It provides an auto-loading pagination feature that automatically loads new data when the page is swiped to the bottom.
 - It considers Mobile-First responsive design.
 
+### App Screenshot
 
+<h4 align="center">Desktop</h4>
+<p align="center" width="100%">
+   <kbd>
+      <img align="center" src="https://user-images.githubusercontent.com/50144690/212461825-201f0f7e-4aab-421b-80f1-6fc79c736b42.png" alt="mobile" style="width:800px;" />
+   <kbd>
+</p>
+<h4 align="center">Mobile</h4>
+<p align="center">
+    <span width="50%">
+      <kbd>
+        <img width="325" alt="mobile" src="https://user-images.githubusercontent.com/50144690/212463033-88c99391-9437-439f-a400-27a1cba940a0.png">
+      <kbd>
+    </span>  
+    <span width="50%">     
+      <kbd>
+        <img width="324" alt="mobile-menu" src="https://user-images.githubusercontent.com/50144690/212463030-4a349974-203d-43e7-83ec-df645058fe72.png">
+      <kbd>
+    </span>
+</p>
+        
+        
 
+### App Link
+- Live Site URL: [RealDNews](https://anilahsu.github.io/RealDNews/)
 
 ## Useage
 
@@ -28,11 +54,15 @@ npm i
 npm start
 ```` 
 
-## APIs
+## Data APIs
+
 - News API
 - Firebase Cloud Functions as Proxy Server
 
 ## Tech Stacks
+
+- Semantic HTML5 markup
+- SCSS custom properties
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [React](https://github.com/facebook/react)
     - [Create React App](https://github.com/facebook/create-react-app)
