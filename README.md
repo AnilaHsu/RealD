@@ -23,17 +23,10 @@ This is a headline news website covering more than 50 countries and six themes.
    <kbd>
 </p>
 <h4 align="center">Mobile</h4>
-<p align="center">
-    <span width="50%">
-      <kbd>
-        <img width="325" alt="mobile" src="https://user-images.githubusercontent.com/50144690/212463033-88c99391-9437-439f-a400-27a1cba940a0.png">
-      <kbd>
-    </span>  
-    <span width="50%">     
-      <kbd>
-        <img width="324" alt="mobile-menu" src="https://user-images.githubusercontent.com/50144690/212463030-4a349974-203d-43e7-83ec-df645058fe72.png">
-      <kbd>
-    </span>
+<p align="center" width="100%">
+  <kbd>
+   <img width="325" alt="mobile" src="https://user-images.githubusercontent.com/50144690/212463033-88c99391-9437-439f-a400-27a1cba940a0.png">
+   <img width="324" alt="mobile-menu" src="https://user-images.githubusercontent.com/50144690/212463030-4a349974-203d-43e7-83ec-df645058fe72.png">
 </p>
         
         
