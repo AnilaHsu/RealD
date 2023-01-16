@@ -1,20 +1,27 @@
-<h1 align="center"> RealDNews </h1>
+<h1 align="center"><a href="https://anilahsu.github.io/RealDNews/"> RealDNews </a></h1>
 <p align="center">A headline news Website developed by <code>React.js</code>, <code>Redux</code>, and <code>TypeScript</code>.</p>
+<p align="center"><code>React.js</code>、<code>Redux</code>、および <code>TypeScript</code> によって開発されたヘッドライン ニュース Web サイト。</p>
 
-## Introduce
-This is a headline news website covering more than 50 countries and six themes.
+## Introduction | 紹介 
+
+<p>This is a headline news website covering more than 50 countries and six themes.</p>
+<p>これは、50 以上の国と 6 つのテーマをカバーするヘッドライン ニュース Web サイトです。</p>
 
 
+## Overview | 概要
 
-## Overview
-
-### App Features
+### App Features | アプリの機能
 - It has a menu navigation bar with multiple topics, users can choose the news of that topic to read according to their interest in reading.
 - It has a country selector for news sources, which by default selects a country based on the location of the user's browser, or users can select a news source country of interest to choose from.
 - It provides an auto-loading pagination feature that automatically loads new data when the page is swiped to the bottom.
 - It considers Mobile-First responsive design.
 
-### App Screenshot
+- 複数のトピックを含むメニュー ナビゲーション バーがあり、ユーザーはそのトピックのニュースを選択して、読書への関心に応じて読むことができます。
+- ニュース ソースの国セレクターがあり、デフォルトでは、ユーザーのブラウザーの場所に基づいて国を選択するか、ユーザーが関心のあるニュース ソースの国を選択できます。
+- ページが下にスワイプされると、新しいデータを自動的にロードする自動ロード ページネーション機能を提供します。
+- モバイルファーストのレスポンシブデザインを考慮しています。
+
+### App Screenshot | アプリのスクリーンショット
 
 <h4 align="center">Desktop</h4>
 <p align="center" width="100%">
@@ -34,10 +41,10 @@ This is a headline news website covering more than 50 countries and six themes.
 
         
 
-### App Link
+### App Link | アプリリンク 
 - Live Site URL: [RealDNews](https://anilahsu.github.io/RealDNews/)
 
-## Useage
+## Useage | 用途
 
 - Install all modules listed as dependencies in package.json.
 
@@ -50,12 +57,12 @@ npm i
 npm start
 ```` 
 
-## Data APIs
+## Data APIs | データ API
 
 - News API
 - Firebase Cloud Functions as Proxy Server
 
-## Tech Stacks
+## Tech Stacks | 技術スタック
 
 - Semantic HTML5 markup
 - SCSS custom properties
