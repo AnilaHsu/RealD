@@ -10,27 +10,28 @@
 
 ## Overview | 概要
 
-### App Features | アプリの機能
+### App Features
 - It has a menu navigation bar with multiple topics, users can choose the news of that topic to read according to their interest in reading.
 - It has a country selector for news sources, which by default selects a country based on the location of the user's browser, or users can select a news source country of interest to choose from.
 - It provides an auto-loading pagination feature that automatically loads new data when the page is swiped to the bottom.
 - It considers Mobile-First responsive design.
 
+### アプリの機能
 - 複数のトピックを含むメニュー ナビゲーション バーがあり、ユーザーはそのトピックのニュースを選択して、読書への関心に応じて読むことができます。
 - ニュース ソースの国セレクターがあり、デフォルトでは、ユーザーのブラウザーの場所に基づいて国を選択するか、ユーザーが関心のあるニュース ソースの国を選択できます。
 - ページが下にスワイプされると、新しいデータを自動的にロードする自動ロード ページネーション機能を提供します。
 - モバイルファーストのレスポンシブデザインを考慮しています。
 
-### App Screenshot | アプリのスクリーンショット
+### App Screenshot
 
-<h4 align="center">Desktop</h4>
+<h4 align="center">Desktop | デスクトップ</h4>
 <p align="center" width="100%">
    <kbd>
        <img width="800" alt="realD-deskrop" src="https://user-images.githubusercontent.com/50144690/212466662-a113adc5-ac1c-4591-9e24-668bcbbc20f7.png">
    <kbd>
 </p>
 
-<h4 align="center">Mobile</h4>
+<h4 align="center">Mobile | モバイル</h4>
 <p align="center" width="100%">
   <kbd>
     <img align="center" width="300" alt="reaD-mobile" src="https://user-images.githubusercontent.com/50144690/212466769-008d7793-eb92-4172-a3ba-0d42ab546460.png">
@@ -41,7 +42,7 @@
 
         
 
-### App Link | アプリリンク 
+### App Link 
 - Live Site URL: [RealDNews](https://anilahsu.github.io/RealDNews/)
 
 ## Useage | 用途
