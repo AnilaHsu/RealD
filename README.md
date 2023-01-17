@@ -65,23 +65,22 @@ npm start
 
 ## Tech Stacks | 技術スタック
 
-- Semantic HTML5 markup
-- SCSS custom properties
-- [TypeScript](https://github.com/microsoft/TypeScript)
+
 - [React](https://github.com/facebook/react)
-    - [Create React App](https://github.com/facebook/create-react-app)
-    - [React Router(@6)](https://github.com/remix-run/react-router)
-    - [react-infinite-scroll-component](https://github.com/ankeetmaini/react-infinite-scroll-component/tree/d5b4e5250669022db5217763afd22fb3995a505a#readme)
+   - [Create React App](https://github.com/facebook/create-react-app)
+- [TypeScript](https://github.com/microsoft/TypeScript)
+- [React-Redux](https://github.com/reduxjs/react-redux)
+- [React Router(@6)](https://github.com/remix-run/react-router)
+- [Redux](https://github.com/reduxjs/redux)
+   - [Redux-Toolkit](https://github.com/reduxjs/redux-toolkit)
+   - [Redux-Thunk](https://github.com/reduxjs/redux-thunk)
+- [Redux-Persist](https://github.com/rt2zz/redux-persist)
+- [react-infinite-scroll-component](https://github.com/ankeetmaini/react-infinite-scroll-component/tree/d5b4e5250669022db5217763afd22fb3995a505a#readme)
 - Lint & Formatter
   - [ESLint](https://github.com/eslint/eslint)
   - [Prettier](https://github.com/prettier/prettier)
-  - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
-- [Redux](https://github.com/reduxjs/redux)
-    - [React-Redux](https://github.com/reduxjs/react-redux)
-    - [Redux-Toolkit](https://github.com/reduxjs/redux-toolkit)
-    - [Redux-Thunk](https://github.com/reduxjs/redux-thunk)
-    - [Redux-Persist](https://github.com/rt2zz/redux-persist)
+  - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) 
 - [Axios](https://github.com/axios/axios)
 - [Material UI](https://github.com/mui/material-ui)
 - [Scss](https://github.com/sass/sass) & [CSS](https://github.com/primer/css)
-
+- Semantic HTML5 markup
