@@ -24,14 +24,14 @@
 
 ### App Screenshot
 
-<h4 align="center">Desktop | デスクトップ</h4>
+<h4 align="center">Desktop・デスクトップ</h4>
 <p align="center" width="100%">
    <kbd>
        <img width="800" alt="realD-deskrop" src="https://user-images.githubusercontent.com/50144690/212466662-a113adc5-ac1c-4591-9e24-668bcbbc20f7.png">
    <kbd>
 </p>
 
-<h4 align="center">Mobile | モバイル</h4>
+<h4 align="center">Mobile・モバイル</h4>
 <p align="center" width="100%">
   <kbd>
     <img align="center" width="300" alt="reaD-mobile" src="https://user-images.githubusercontent.com/50144690/212466769-008d7793-eb92-4172-a3ba-0d42ab546460.png">
