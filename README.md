@@ -82,5 +82,5 @@ npm start
   - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) 
 - [Axios](https://github.com/axios/axios)
 - [Material UI](https://github.com/mui/material-ui)
-- [Scss](https://github.com/sass/sass) & [CSS](https://github.com/primer/css)
+- [SCSS](https://github.com/sass/sass) & [CSS](https://github.com/primer/css)
 - Semantic HTML5 markup
